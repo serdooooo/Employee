@@ -55,6 +55,9 @@ namespace Employee_Homework
         }
         public HourlyEmployee()
         {
+
+            Console.ResetColor();
+            Console.BackgroundColor = ConsoleColor.DarkBlue;
             Console.WriteLine("***Hourly Employee Worked***");
         }
     }

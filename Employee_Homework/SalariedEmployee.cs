@@ -32,6 +32,9 @@ namespace Employee_Homework
 
         public SalariedEmployee()
         {
+
+            Console.ResetColor();
+            Console.BackgroundColor = ConsoleColor.DarkMagenta;
             Console.WriteLine("***Salaried Employee Worked***");
         }
     }

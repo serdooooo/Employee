@@ -31,6 +31,9 @@ namespace Employee_Homework
         }
         public BasePlusCommissionEmployee()
         {
+
+            Console.ResetColor();
+            Console.BackgroundColor = ConsoleColor.Red;
             Console.WriteLine("***BasePlusCommissionEmployee Worked***");
         }
     }

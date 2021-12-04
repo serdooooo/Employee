@@ -43,6 +43,9 @@ namespace Employee_Homework
 
         public CommissionEmployee()
         {
+
+            Console.ResetColor();
+            Console.BackgroundColor = ConsoleColor.DarkGray;
             Console.WriteLine("***Commission Employee Worked***");
         }
     }

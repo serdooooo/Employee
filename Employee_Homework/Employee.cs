@@ -49,6 +49,7 @@ namespace Employee_Homework
 
         protected Employee()
         {
+            Console.BackgroundColor = ConsoleColor.DarkCyan;
             Console.WriteLine("\nEmployee Worked");
         }
         public abstract double Earnings();
